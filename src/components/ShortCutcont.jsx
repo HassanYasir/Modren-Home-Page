@@ -10,9 +10,9 @@ function ShortCutcont (){
         <div id="stortcuts-container">
             <div id="stortcuts-box-container">
                 <Shortcutbox link="https://www.youtube.com/"  src={youtube} tittle={"Youtube"} />
-                <Shortcutbox link="https://www.youtube.com/"  src={github} tittle={"Github"} />
-                <Shortcutbox link="https://www.youtube.com/"  src={gmail} tittle={"Gmail"} />
-                <Shortcutbox link="https://www.youtube.com/"  src={linkedin} tittle={"Linkedin"} />
+                <Shortcutbox link="https://github.com/"  src={github} tittle={"Github"} />
+                <Shortcutbox link="https://mail.google.com/"  src={gmail} tittle={"Gmail"} />
+                <Shortcutbox link="https://www.linkedin.com/"  src={linkedin} tittle={"Linkedin"} />
             </div>
         </div>
     );

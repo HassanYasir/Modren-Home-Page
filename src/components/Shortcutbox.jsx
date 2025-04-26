@@ -4,7 +4,7 @@ import '../App.css'
 
 function Shortcutbox (props){
     return (
-        <a href={props.link} className="shortcut-box ">
+        <a href={props.link} className="shortcut-box " target='_blank'>
             <div className="box-cover">
                 <img src={props.src} alt=""/>
             </div>

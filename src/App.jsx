@@ -13,7 +13,7 @@ function App() {
     <>
       <Searchbar />
       <ShortCutcont/>
-      <Newsnav opt={["Development","Programing","Computer Science"]}/>
+      <Newsnav opt={["technology","science","health","palestine"]}/>
 
     </>
   )
