@@ -1,39 +1,55 @@
-# Snake Game on Web
+# Modren HomePage
+
 <span>
-<img src='https://raw.githubusercontent.com/HassanYasir/Web-Snake-Game/refs/heads/main/img/Readme%20content/Game_preview.png' alt='game-view' width='450'  align='center'/>
-<img src='https://raw.githubusercontent.com/HassanYasir/Web-Snake-Game/refs/heads/main/img/Readme%20content/Game_ending.png' alt='game-view' width='450'  align='center'/>
+<img src='https://raw.githubusercontent.com/HassanYasir/Modren-Home-Page/refs/heads/main/Readme_content/project_view.png' alt='project-view' width='450'  align='center'/>
+
 </span>
 
 
+A minimalist and modern homepage built with **React.js**.  
+It offers easy-to-use **shortcuts** and displays **news** related to the user's interests, using the **NewsAPI.org** service.
 
-**Welcome to the Web-Based Snake Game! This project is a classic implementation of the Snake game, where players control a snake to collect food while avoiding collisions with the walls and itself..**
+## ✨ Features
 
-## About the game
+- Clean and minimalist design
+- Customizable shortcuts to favorite websites
+- Live news feed based on user interests
+- Fully responsive for desktop and laptop
+- Built with React.js for smooth and fast performance
 
-Hi 👋  
+## 🚀 Technologies Used
 
-__Technologies Used__
+- React.js
+- NewsAPI.org (for fetching news)
+- CSS (for styling)
 
-* HTML: Structure of the game.
-* CSS:Styling for a visually appealing layout.
-* JavaScript:Game logic and interactivity.
+## 📦 Installation
 
-
-## Features
-
-* Responsive Design:Playable on various devices (desktop, tablet, mobile).
-* User-Friendly Interface:Simple and intuitive layout with touch swipe controlles for smart phones.
-* Dynamic Game Logic:Saves high score on localstorage of your browser so the highscore will retain its value.
-
-## Installation
-
-Clone the repository:
-
+1. Clone the repository:
 ```bash
-https://github.com/HassanYasir/Web-Snake-Game.git
+   git clone https://github.com/yourusername/modern-homepage.git
+```
+2. Navigate to the project folder:
+```bash
+   cd Modren-Home-Page-main
+```
+3. Install dependencies:
+```bash
+   npm install
+```
+4. Start the development server:
+```bash
+   npm run dev
 ```
 
-Open  ` index.html` in your web browser.
+## ⚙️ Configuration
+- To fetch news, you need an API key from NewsAPI.org.
+- Create a **.env.local** file in the root of your project and add:
+
+```bash
+   VITE_API_KEY=YOUR_API_KEY_HERE
+```
+
 
 ## Contributing
 
